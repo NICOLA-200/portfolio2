@@ -1,6 +1,6 @@
 
 
-function Resume() {
+const  Resume = ()  => {
   return (
          <a
   href="https://drive.google.com/file/d/1hLpF3Cb9Gpa7x_b1OhgLhUeglevvb1jt/view?usp=sharing"
@@ -29,4 +29,4 @@ function Resume() {
   )
 }
 
-export default Resume
+export default Resume;

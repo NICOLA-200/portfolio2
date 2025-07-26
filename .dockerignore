@@ -1,0 +1,25 @@
+# Node modules (they are installed fresh in the image)
+node_modules
+
+# Build output
+dist
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.*
+
+# Git files
+.git
+.gitignore
+
+# OS or editor artifacts
+.DS_Store
+*.swp
+*.swo
+.vscode
+.idea
