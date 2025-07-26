@@ -9,7 +9,8 @@ import Contact from './sections/Contact.jsx';
 import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
-import Resume from "./sections/resume.jsx";
+import Resume from "./sections/Resume.jsx";
+
 
 
 // const RotatingCube = () => {
