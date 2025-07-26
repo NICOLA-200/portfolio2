@@ -1,18 +1,16 @@
-import { Leva , useControls } from 'leva';
-import { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { useMediaQuery } from 'react-responsive';
-import { PerspectiveCamera } from '@react-three/drei';
 
-import Cube from '../components/Cube.jsx';
-import Rings from '../components/Rings.jsx';
-import ReactLogo from '../components/ReactLogo.jsx';
-import Button from '../components/Button.jsx';
-import Target from '../components/Target.jsx';
-import CanvasLoader from '../components/Loading.jsx';
-import HeroCamera from '../components/HeroCamera.jsx';
+import { useMediaQuery } from 'react-responsive';
+// import { PerspectiveCamera } from '@react-three/drei';
+
+// import Cube from '../components/Cube.jsx';
+// import Rings from '../components/Rings.jsx';
+// import ReactLogo from '../components/ReactLogo.jsx';
+// import Button from '../components/Button.jsx';
+// import Target from '../components/Target.jsx';
+// import CanvasLoader from '../components/Loading.jsx';
+// import HeroCamera from '../components/HeroCamera.jsx';
 import { calculateSizes } from '../constants/index.js';
-import { HackerRoom } from '../components/HackerRoom.jsx';
+
 import ComputersCanvas from './canvas/Computer.jsx';
 
 
@@ -21,25 +19,7 @@ const Hero = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 });
   const isMobile = useMediaQuery({ maxWidth: 768 });
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
-  // const x = useControls('HackerRoom', {
-  //   scale: {
-  //     value: 1,
-  //     min: 0.1 ,
-  //     max: 10,
-  //   },
-  //   positionX: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10
-  //   },
-
-  //   positionY: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10
-  //   },
-
-  // })
+ 
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
