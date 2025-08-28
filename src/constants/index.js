@@ -59,7 +59,7 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'Ultimate Chat',
-    desc: 'ChatWave is a real-time messaging app that lets you communicate instantly with friends, teams, or communities. Enjoy secure, lightning-fast conversations with features like group chats, media sharing, emoji reactions, and message history—all in a clean, intuitive interface. Whether for casual chats or professional discussions, ChatWave keeps you connected anytime, anywhere.',
+    desc: 'Ultimate chat is a real-time messaging app that lets you communicate instantly with friends, teams, or communities. Enjoy secure, lightning-fast conversations with features like group chats, media sharing, emoji reactions, and message history—all in a clean, intuitive interface. Whether for casual chats or professional discussions, ChatWave keeps you connected anytime, anywhere.',
     subdesc:
       'Built as a unique Software-as-a-Service app with React, express, Tailwind CSS, TypeScript and WebRTC, Ultimate chat is designed for easly and simplified chats.',
     href: 'https://ultimate-chat.vercel.app/',
