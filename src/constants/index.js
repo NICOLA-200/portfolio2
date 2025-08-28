@@ -22,13 +22,13 @@ export const navLinks = [
 ];
 
 export const clientReviews = [
-  {
+   {
     id: 1,
     name: 'Byumvuhore Aimable',
-    position: 'Student  at Rwanda Coding Academy',
+    position: 'Student at Rwanda Coding Academy',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Nicola was a fantastic experience. We collaborated on several projects, and his dedication and technical skills consistently impressed me. He brings creativity and precision to every task.',
   },
   {
     id: 2,
@@ -36,23 +36,23 @@ export const clientReviews = [
     position: 'Student at African Leadership University (ALU)',
     img: 'assets/alu.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Nicola’s expertise and professionalism are outstanding. We worked together on multiple projects, and he always delivered efficient, high-quality solutions. His teamwork and commitment make him a reliable collaborator.',
   },
   {
     id: 3,
     name: 'Mugisha Regis',
-    position: 'CTO AT crowdsync ',
+    position: 'CTO at CrowdSync',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I highly recommend Nicola. During our work on CrowdSync, he handled complex requirements with ease and always produced functional, well-structured results. His problem-solving skills are excellent.',
   },
   {
     id: 4,
-    name: 'Habimana tony Herve  ',
-    position: 'backend at fastInfo',
+    name: 'Habimana Tony Herve',
+    position: 'Backend at FastInfo',
     img: 'assets/review4.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'It was a pleasure working with Nicola at FastInfo. He understood our backend and frontend needs perfectly and delivered solutions that exceeded expectations. His technical expertise and professionalism are top-notch.',
   },
 ];
 
