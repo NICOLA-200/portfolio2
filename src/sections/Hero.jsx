@@ -27,7 +27,7 @@ const Hero = () => {
      <section className={`relative w-full h-screen mx-auto`}>
       
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start justify-center gap-5`}
+        className={`absolute inset-0 top-[120px]   max-w-7xl mx-auto flex flex-row items-start justify-center gap-5`}
       >
        
  
@@ -61,7 +61,7 @@ const Hero = () => {
            
             <span className="waving-hand">👋</span>
          </p>
-<p className="hero_tag sm:w-[60%] text-center  whitespace-pre-wrap tracking-wider">
+<p className="hero_tag sm:w-[60%] text-center mx-3 sm:mx-0 whitespace-pre-wrap tracking-wider">
   {"Full Stack Developer Specializing in Web & Mobile Applications".split("").map((char, i) => (
     <span
       key={i}
