@@ -175,7 +175,7 @@ export const myProjects = [
     desc: 'MetaSphere is an immersive metaverse platform where you can explore virtual worlds, socialize with others, attend events, play games, and build your digital identity. Create your avatar, own virtual assets, and interact in real-time across 3D environments. Whether you"re hanging out with friends, hosting meetings, or experiencing live concerts, MetaSphere brings your digital life to reality—limitless, connected, and dynamic.',
     subdesc:
       'Built with Next.js 14 , and framer-motion, metarverse ensures a smooth and effient ui / ux experience, tailored to meet the needs of modern consumers.',
-    href: 'https://metaverse-blond-six.vercel.app/',
+    href: 'https://bank-app-do01.onrender.com',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
